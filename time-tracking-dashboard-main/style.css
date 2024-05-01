@@ -1,0 +1,382 @@
+.rubik1{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rubik2{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik3{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 1500px;
+    height: 560px;
+    margin-top: 200px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.firstdiv{
+    background-color: hsl(235, 46%, 20%);
+    height: 100%;
+    width: 350px;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.img1{
+    width: 90px;
+}
+
+.h1-1{
+    font-size: 50px;
+}
+
+.jeremy{
+    background-color: hsl(262, 76%, 53%);
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-top: 30px;
+    height: 360px;
+    position: relative;
+}
+
+.report{
+    color: white;
+    margin-top: 40px;
+}
+
+.daily{
+    color: hsl(235, 33%, 40%);
+    padding-left: 40px;
+}
+
+.h3-1{
+    margin-top: 31px;
+    cursor: pointer;
+}
+
+.h3click{
+    color: white;
+}
+
+.div2{
+    margin-left: 40px;
+}
+
+.work{
+    background-color: hsl(15, 100%, 70%);
+    width: 360px;
+    border-radius: 15px;
+    height: 260px;
+    color: white;
+    position: relative;
+}
+
+.play{
+    background-color: hsl(195, 74%, 62%);
+    width: 360px;
+    border-radius: 15px;
+    height: 260px;
+    color: white;
+    position: relative;
+}
+
+.study{
+    background-color: hsl(348, 100%, 68%);
+    width: 360px;
+    border-radius: 15px;
+    height: 260px;
+    color: white;
+    position: relative;
+}
+
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+    width: 360px;
+    border-radius: 15px;
+    height: 260px;
+    color: white;
+    position: relative;
+}
+
+.social{
+    background-color: hsl(264, 64%, 52%);
+    width: 360px;
+    border-radius: 15px;
+    height: 260px;
+    color: white;
+    position: relative;
+}
+
+.selfcare{
+    background-color: hsl(43, 84%, 65%);
+    width: 360px;
+    border-radius: 15px;
+    height: 260px;
+    color: white;
+    position: relative;
+}
+
+.hours{
+    background-color: hsl(235, 46%, 20%);
+    height: 210px;
+    border-radius: 15px;
+    position: absolute;
+    width: 360px;
+    top: 0;
+    margin-top: 55px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.img2{
+    float: right;
+    margin-right: 30px;
+}
+
+.forworklayer{
+    display: flex;
+}
+
+.dot{
+    margin-left: 240px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 12px;
+}
+
+.workp{
+    font-size: 20px;
+}
+
+.h1-2{
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+.p2{
+    margin-top: 10px;
+    color: hsl(235, 33%, 40%);
+}
+
+.seconddiv{
+    display: flex;
+    gap: 40px;
+}
+
+.thirddiv{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:1600px)
+{
+ .container{
+    width: 1200px;
+    height: 360px;
+ }    
+ .firstdiv{
+    height: 100%;
+    width: 350px;
+ }
+ .jeremy{
+    background-color: hsl(262, 76%, 53%);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 240px;
+}
+.h3-1{
+    margin-top: 10px;
+    font-size: 15px;
+}
+ .h1-1{
+    font-size: 30px;
+ }
+ .report{
+    margin-top: 30px;
+}
+ .img1{
+    width: 60px;
+ }
+ .work{
+    width: 260px;
+    height: 160px;
+}
+.play{
+    width: 260px;
+    height: 160px;
+}
+.study{
+    width: 260px;
+    height: 160px;
+}
+.exercise{
+    width: 260px;
+    height: 160px;
+}
+.social{
+    width: 260px;
+    height: 160px;
+}
+.selfcare{
+    width: 260px;
+    height: 160px;
+}
+.hours{
+    height: 110px;
+    width: 260px;
+    padding-top: 20px;
+}
+.h1-2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.workp{
+    margin-top: 1px;
+    font-size: 15px;
+}
+.dot{
+    margin-left: 150px;
+    font-size: 19px;
+}
+}
+
+@media screen and (max-width:500px)
+{
+ body{
+    display: flex;
+    justify-content: center;
+ }
+.container{
+    width: 1200px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+ }    
+ .div2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+ }
+ .seconddiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+ }
+ .firstdiv{
+    height: 100%;
+    width: 250px;
+    margin-left: 470px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+ }
+ .daily{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    padding-top: 15px;
+ }
+ .jeremy{
+    background-color: hsl(262, 76%, 53%);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 140px;
+}
+.h3-1{
+    margin-top: 5px;
+    font-size: 15px;
+    height: 15px;
+}
+ .h1-1{
+    font-size: 10px;
+ }
+ .report{
+    margin-top: 8px;
+}
+ .img1{
+    width: 40px;
+ }
+ .work{
+    width: 255px;
+    height: 160px;
+}
+.play{
+    width: 255px;
+    height: 160px;
+}
+.study{
+    width: 255px;
+    height: 160px;
+}
+.exercise{
+    width: 255px;
+    height: 160px;
+}
+.social{
+    width: 255px;
+    height: 160px;
+}
+.selfcare{
+    width: 255px;
+    height: 160px;
+}
+.hours{
+    height: 110px;
+    width: 255px;
+    padding-top: 20px;
+}
+.h1-2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.workp{
+    margin-top: 1px;
+    font-size: 15px;
+}
+.dot{
+    margin-left: 150px;
+    font-size: 19px;
+}
+.thirddiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+.p2{
+    font-size: 13px;
+}
+}
